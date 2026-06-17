@@ -16,8 +16,8 @@ A synthetic dataset of 300 patients was generated using a custom Python class. E
 - Sleep Hours
 
 A risk score was manually defined based on medical-like rules (e.g., high BMI, high glucose, low activity ...), and a binary target variable (risk) was created: 
-•	0 → Low Risk 
-•	1 → High Risk 
+-	0 → Low Risk 
+-	1 → High Risk 
 
 # Exploratory Data Analysis (EDA)
 Exploratory analysis was performed to understand the data distribution and relationships between variables. 
@@ -28,22 +28,24 @@ Several machine learning models were tested, and Random Forest was selected as t
 The dataset was split using a train-test split approach to ensure proper evaluation.
 
 # Model Performance
-•	Accuracy: 0.83 
-•	Precision: 0.87 
-•	Recall: 0.82 
+-	Accuracy: 0.83 
+-	Precision: 0.87 
+-	Recall: 0.82 
 
 # Health Insight Generation 
 In addition to prediction, the system includes a rule-based explanation module that generates interpretable insights. 
 Example output: 
 "High risk due to elevated BMI and high glucose level, combined with low physical activity."
 
+# Dashboard & Visualization
+A dashboard was developed using Power BI to visualize the results and provide an interactive overview.
 
 # Conclusion 
 This project demonstrates a complete pipeline for health risk prediction, including data generation, analysis, model training, and visualization. 
 The system successfully: 
-•	Predicts patient risk using machine learning 
-•	Provides interpretable explanations for predictions 
-•	Visualizes key patterns through an interactive dashboard 
+-	Predicts patient risk using machine learning 
+-	Provides interpretable explanations for predictions 
+-	Visualizes key patterns through an interactive dashboard PowerBI
 
 
 
