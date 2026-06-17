@@ -1,3 +1,4 @@
+# Health Risk Prediction & Insight System
 
 This project presents a machine learning system designed to analyze patient data and predict health risk, similar to a simplified digital health analytics module. The system not only predicts whether a patient is at high or low risk but also provides interpretable insights to explain the prediction.
 A synthetic dataset was generated to simulate realistic healthcare conditions, and the system integrates data analysis, machine learning, and visualization using Power BI.
