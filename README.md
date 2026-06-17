@@ -5,15 +5,15 @@ A synthetic dataset was generated to simulate realistic healthcare conditions, a
 
 # Dataset
 A synthetic dataset of 300 patients was generated using a custom Python class. Each patient record includes the following features:
-•	Age
-•	Gender
-•	Blood Pressure
-•	Heart Rate
-•	BMI
-•	Glucose Level
-•	Smoking Status
-•	Activity Level
-•	Sleep Hours
+- Age
+- Gender
+- Blood Pressure
+- Heart Rate
+-	BMI
+-	Glucose Level
+-	Smoking Status
+-	Activity Level
+- Sleep Hours
 
 A risk score was manually defined based on medical-like rules (e.g., high BMI, high glucose, low activity ...), and a binary target variable (risk) was created: 
 •	0 → Low Risk 
